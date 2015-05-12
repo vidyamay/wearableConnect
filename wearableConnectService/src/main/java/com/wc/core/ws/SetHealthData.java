@@ -13,5 +13,12 @@ public class SetHealthData {
 
         return "<html><body><p>Name=Vidya</p></body></html>";
     }
+    
+    @Path("/getHealthInfo")
+    @GET
+    public String getHealthInfo() {
+
+        return "<html><body><p>Name=Vidya</p></body></html>";
+    }
 
 }
